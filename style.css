@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-image: url("https://thumbs.gfycat.com/DelayedEmotionalAustrianpinscher-size_restricted.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: true;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background-color: #ecf4ff;
+  margin: 85px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e102f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+.perfil-foto {
+  border-radius: 100px;
+  max-width: 170px;
+  max-height: 170px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.perfil-foto:hover {
+  border-radius: 120px;
+  transition: 0.5s;
+  max-width: 220px;
+  max-height: 220px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.titulo {
+  cursor: default;
+  margin: 10px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+.tema button {
+  background: #ecf4ff;
+  allign-self: flex-end;
+  width: 100px;
+  height: 45px;
+  font-wight: 400;
+  border-radius: 23.7px;
+}
+.tema button:hover {
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.projetos {
+  list-style-type: none;
+  padding: 32px;
+  border-radius: 20px;
+  flex-direction: column;
+}
+.projetos ul {
+  list-style-type: none;
+}
+.projetos div {
+  position: absolute;
+  width: 371px;
+  height: 35px;
+  left: 534px;
+  top: 388px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #1c1c1c;
+}
+.projetos h3,
+.projetos h4 {
+  cursor: default;
+  color: #ffffff;
+}
+.projetos a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.projeto:hover {
+  transition: 0.4s;
+  width: 100px;
+  color: blueviolet;
+  font-size: 20px;
+}
+.dark .container {
+  background: #333439;
+  color: white;
+}
+.dark button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+.portfolio {
+  color: white;
+  list-style-type: none;
+  background-image: url("https://cdn.hackernoon.com/images/f2px36fy.gif");
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+.socialmedia {
+  flex-direction: row;
+  vertical-align: middle;
+  allign-items: center;
+  justify-content: center;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.socialmedia a {
+  text-decoration: none;
+}
+a + a {
+  margin-left: 50px;
+}
+.logo:hover {
+  transform: rotate(720deg);
+  transition: 1.5s;
+  width: 80px;
+}
+.logo {
+  width: 60px;
+  cursor: pointer;
+}
+/*.linguagens ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.linguagens li {
+  list-style-type: none;
+}
+
+.linguagens img {
+  max-height: 100px;
+}
+.linguagens li:hover {
+  max-height:150px;
+  transition:0.5s;
+}*/
